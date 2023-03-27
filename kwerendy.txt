@@ -1,0 +1,12 @@
+kw. 1
+INSERT INTO baza.rezerwacje (id, nr_stolika, data_rez, liczba_osob, telefon)
+VALUES (NULL, 1, "217-07-04", 4, "111222333");
+
+kw. 2
+SELECT dania.nazwa, dania.cena FROM dania WHERE dania.typ = 2;
+
+kw. 3
+SELECT dania.nazwa FROM dania WHERE dania.typ = 3 AND dania.cena < 15;
+
+kw. 4
+UPDATE pracownicy set pracownicy.stanowisko = 4 WHERE pracownicy.stanowisko = 3;

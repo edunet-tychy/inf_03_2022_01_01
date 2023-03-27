@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 90%;
+  background-color: #f6e5dc;
+}
+
+.header {
+  background-color: #2f180c;
+  color: khaki;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  display: flex;
+}
+
+.left {
+  width: 60%;
+}
+
+.left img {
+  height: 350px;
+}
+
+.right {
+  width: 40%;
+  padding: 70px;
+  font-size: 150%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right h4 {
+  padding: 20px 0;
+}
+
+.main {
+  background-color: #d0b6a8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.main form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  background-color: #2f180c;
+  color: khaki;
+  height: 60px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.btn input {
+  margin: 10px;
+  padding: 5px;
+  background-color: #2f180c;
+  color: khaki;
+}
+
+form input {
+  padding: 1px;
+}
